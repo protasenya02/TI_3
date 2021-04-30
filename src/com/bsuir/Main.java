@@ -17,11 +17,7 @@ public class Main {
         signature.inputMessage();
         signature.signMessage();
 
+        signature.inputMessage();
         signature.checkMessageSignature();
-
-
-
-
-
     }
 }
