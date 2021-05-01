@@ -1,4 +1,4 @@
-package com.bsuir;
+package com.bsuir.digitalSignature.rsa;
 
 public class Triple {
 
@@ -6,7 +6,7 @@ public class Triple {
   private final long x;
   private final long y;
 
-  Triple(long d, long x, long y) {
+  public Triple(long d, long x, long y) {
 
     this.d = d;
     this.x = x;

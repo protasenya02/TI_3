@@ -1,23 +1,13 @@
 package com.bsuir;
 
+import com.bsuir.digitalSignature.DigitalSignature;
+
 public class Main {
 
     public static void main(String[] args) {
 
         DigitalSignature signature = new DigitalSignature();
-
-        signature.inputP();
-        signature.inputQ();
-
-        signature.calculateKeys();
-
-        signature.outputOpenKey();
-        signature.outputPrivateKey();
-
-        signature.inputMessage();
         signature.signMessage();
-
-        signature.inputMessage();
         signature.checkMessageSignature();
     }
 }
